@@ -10,10 +10,14 @@
     <div id="impress">
         <div id="intro" class="step slide">
             <div class="slide-text">
-                <p>You see swirling mists that slowly form into a pale face. In a deep, ominous voice, it speaks. "You...you are not supposed to be here, its not safe!. 
-                   You need to find your way out, quickly! Go!"</p>
-                <p>You awaken groggily, and find yourself laying on a sandy beach. You realise you are bleeding from your head, but have no idea why, or where you are.
-                   The last thing you remember was...was...you have no idea. Your mind is blank.</p>
+                <p>
+                    You see swirling mists that slowly form into a pale face. In a deep, ominous voice, it speaks. "You...you are not supposed to be here, its not safe!
+                    You need to find your way out, quickly! Go!"
+                </p>
+                <p>
+                    You awaken groggily, and find yourself laying on a sandy beach. You realize you are bleeding from your head, but have no idea why, or where you are.
+                    The last thing you remember was...was...you have no idea. Your mind is blank.
+                </p>
                 <br />
                 <p>What do you do?</p>
                 <p><a href="#getup">Get up and look around.</a></p>
@@ -22,8 +26,37 @@
             </div>
         </div>
 
-    </div>
+        <div id="getup" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p>You slowly climb to your feet, the ominous words still ringing in your ears. The sun is hot and beating down, it makes you feel dizzy.</p>
+                <p>
+                    As you look around you see a dark cave to the north, it looks cool, but very dark and uninviting. To the west the beach continues banked on one side by
+                    thick jungle, and on the other by the ocean.
+                </p>
+                <p>The way to the east is covered with jagged rocks, but you think you can pick your way through them. To the south is endless ocean. </p>
+                <br />
+                <p>Which way do you go?</p>
+                <p><a href="#north">Head north to the dark cave.</a></p>
+                <p>or</p>
+                <p><a href="#west">Walk west down the beach.</a></p>
+                <p>or</p>
+                <p><a href="#east">Pick your way through the rocks.</a></p>
+            </div>
+        </div>
 
+        <!--Death Option-->
+        <div id="stayhere" class="step slide" data-x="-1500">
+            <div class="slide-text">
+                <p>You decide to lay down and just rest awhile. You feel tired...so tired...and you drift off to sleep.</p>
+                <p>The wound to your head was worse then you though. A concussion takes hold, and you don't wake up...even as the tide rolls in...</p>
+            </div>
+            <p>You are Dead. Better luck next time.</p>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+
+    </div>
 
     <!-- JavaScript Section -->
     <script src="js/impress.js"></script>
