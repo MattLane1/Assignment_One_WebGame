@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>The Adventure!</title>
+    <title>The Island!</title>
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 </head>
@@ -13,10 +13,6 @@
         <!--The introduction to the game.-->
         <div id="intro" class="step slide">
             <div class="slide-text">
-                <p>
-                    You see swirling mists that slowly form into a pale face. In a deep, ominous voice, it speaks. "You...you are not supposed to be here, its not safe!
-                    You need to find your way out, quickly! Go!"
-                </p>
                 <p>
                     You awaken groggily, and find yourself laying on a sandy beach. You realize you are bleeding from your head, but have no idea why, or where you are.
                     The last thing you remember was...was...you have no idea. Your mind is blank.
@@ -48,7 +44,7 @@
         <!--Head North Option-->
         <div id="north" class="step slide" data-x="2500">
             <div class="slide-text">
-                <p>You walk northward, towad the dark cave. The cool air rolls out to greet you, it feels so nice on your sun baked skin. It is dark inside, far too dark to see. If you put your hand to the wall, and walk slowly, you think you might make it though.</p>
+                <p>You walk northward, toward the dark cave. The cool air rolls out to greet you, it feels so nice on your sun baked skin. It is dark inside, far too dark to see. If you put your hand to the wall, and walk slowly, you think you might make it though.</p>
                 <p>From somewhere deep in the cave, you hear a deep but almost inaudible growl...it must be the wind.</p>
                 <br />
                 <p>Which way do you go?</p>
@@ -74,10 +70,10 @@
         </div>
 
         <!--Head East Option-->
-        <div id="east" class="step slide" data-x="1000">
+        <div id="east" class="step slide" data-x="8500">
             <div class="slide-text">
                 <p>You decide to try and pick your way through the rocks. Slowly, carefully, you move between the jagged points. One slip, and your as good as dead.</p>
-                <p>Suddenly, you notice something shiney rolling back and forth in the waves, there is no way to tell for sure from here. The way to it is trecherous, the waves crash into the rocks, making them slippery. </p>
+                <p>Suddenly, you notice something shiny rolling back and forth in the waves, there is no way to tell for sure from here. The way to it is treacherous, the waves crash into the rocks, making them slippery. </p>
                 <p>There is a stick laying to your right. Maybe you could use it to pull the object toward you.</p>
                 <br />
                 <p>Which way do you go?</p>
@@ -97,7 +93,7 @@
             </div>
         </div>
 
-        <!--Head east along the beach option-->
+        <!--Head west along the beach option-->
         <div id="west" class="step slide" data-x="6500">
             <div class="slide-text">
                 <p>You begin to walk down the beach, the sun continues to beat down on you. Sweat pours down your face, and your head throbs. You realize you wont last long out here. You need to get to cover before heat stroke takes over.</p>
@@ -113,13 +109,49 @@
         </div>
 
         <!--Go for a swim option-->
-        <div id="ocean" class="step slide" data-x="6500">
+        <div id="ocean" class="step slide" data-x="7500">
             <div class="slide-text">
                 <p> You decide the ocean looks too inviting to pass up. You wade into the warm water, and sit down, letting the waves crash on your face. It feels great. You notice however, the water around you...looks red. The blood from your head is washing off into the water. At that moment, you see the fin coming toward you, your blood is bringing in a shark! You scramble to shore just in time. </p>
                 <br />
                 <p></p>
                 <p><a href="#shark">Give up, and feed the shark. </a></p>
                 <p><a href="#beach">Turn around and go back.</a></p>
+            </div>
+        </div>
+
+        <!--Go into the cave-->
+        <div id="cave" class="step slide" data-x="9500">
+            <div class="slide-text">
+                <p> You put your hand to the wall, it is so cold you pause a moment to enjoy it. Then, screwing up your courage, you take for first steps into the inky black. The cave is beyond dark. But it is cool and refreshing, it invigorates you. You keep one hand on the wall, and the other ahead of you as you move through the cave.</p>
+                <p> Again, you hear the deep, low growl. "It's just the wind..." You keep telling yourself over and over again..."It's just the wind..." But part of you knows, it isn't.</p>
+                <p> Suddenly, your hand looses the wall, the finds it again. You realize there is a turn here to the right.</p>
+                <br />
+                <p></p>
+                <p><a href="#cave2"></a>Keep pushing forward.</p>
+                <p><a href="#cave3"></a>Turn right.</p>
+                <p><a href="#beach">Turn around and go back.</a></p>
+            </div>
+        </div>
+
+        <!--Go into the cave-->
+        <div id="cave" class="step slide" data-x="9500">
+            <div class="slide-text">
+                <p> You put your hand to the wall, it is so cold you pause a moment to enjoy it. Then, screwing up your courage, you take for first steps into the inky black. The cave is beyond dark. But it is cool and refreshing, it invigorates you. You keep one hand on the wall, and the other ahead of you as you move through the cave.</p>
+                <p> Again, you hear the deep, low growl. "It's just the wind..." You keep telling yourself over and over again..."It's just the wind..." But part of you knows, it isn't.</p>
+                <br />
+           
+                <p><a href="#cave2"></a>Keep pushing forward.</p>
+                <p><a href="#beach">Turn around and go back.</a></p>
+            </div>
+        </div>
+
+        <!--Go into the cave-->
+        <div id="cave2" class="step slide" data-x="10500">
+            <div class="slide-text">
+                <p> As you continue down the cave, ahead you see light in the distance. You keep moving toward it, with new hope that you may actually escape this place. The light grows brighter, and brighter until you jump out of the cave and are blinded by the light. As your eyes adjust, you see the best thing you have ever seen ahead. A boat, anchored just off shore. You scream to them, and they look back, confused.</p>
+                <p> Without hesitation you dive into the water and swim to the boat. They help you on board and you tell them your tale. The funny thing is, you still have no idea who you are or where you are going. But at least you are off that terrible island.</p>
+                <br />
+                <p> Congratulations! You survived the island!</p>
             </div>
         </div>
 
@@ -138,9 +170,20 @@
         </div>
 
         <!--Death Option Suicide by Shark-->
-        <div id="furtherBeach" class="step slide" data-x="-3500">
+        <div id="shark" class="step slide" data-x="-5500">
             <div class="slide-text">
                 <p>You are tired of this. You are tired of the heat. Of the sand. Of the ache in your head. You throw yourself back into the water, and the shark obliges...though...not quickly.</p>
+            </div>
+            <p>You are Dead. Better luck next time.</p>
+            <div class="menu">
+                <a href="#intro">START OVER</a>
+            </div>
+        </div>
+
+        <!--Death Option Cave-->
+        <div id="cave3" class="step slide" data-x="-6500">
+            <div class="slide-text">
+                <p>You decide to turn right. Keeping your hand to the wall, you slowly creep along, feeling the way with your feet. You hear the growling again...this time closer. A lot closer. You realize whatever it is, it's just ahead of you, and you have made a terrible mistake. You start to back up, but your foot catches a rock and you fall. The growl turns into a roar, and something huge jumps onto you, in the ark you struggle against your attacker, but you have no chance. It crushes your skull with one bite. </p>
             </div>
             <p>You are Dead. Better luck next time.</p>
             <div class="menu">
@@ -151,7 +194,7 @@
         <!--Death Option Eaten by a Tiger-->
         <div id="jungle" class="step slide" data-x="-4500">
             <div class="slide-text">
-                <p>As walk into the jungle, it's hot and steamy, but shadey. You lean back against a tree and close your eyes. You open them just in time...to see the tiger...as he lunges at you, jaws open.</p>
+                <p>As walk into the jungle, it's hot and steamy, but shady. You lean back against a tree and close your eyes. You open them just in time...to see the tiger...as he lunges at you, jaws open.</p>
             </div>
             <p>You are Dead. Better luck next time.</p>
             <div class="menu">
@@ -174,7 +217,7 @@
         <!--Death Option Snake-->
         <div id="stick" class="step slide" data-x="-2500">
             <div class="slide-text">
-                <p>You reach out and grab the stick...but it isnt a stick..its a snake! The snake turns and bites you. Venom floods your veins, the pain is too much, you loose focus and slip...impaling yourself on a rock. </p>
+                <p>You reach out and grab the stick...but it isn't a stick..its a snake! The snake turns and bites you. Venom floods your veins, the pain is too much, you loose focus and slip...impaling yourself on a rock. </p>
             </div>
             <p>You are Dead. Better luck next time.</p>
             <div class="menu">
