@@ -1,5 +1,8 @@
-﻿<!DOCTYPE html>
+﻿<!--This HTML game made by Matthew Lane, using theDragon as a base, and reference.-->
 
+<!DOCTYPE html>
+
+<!--Set up the HTML page-->
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -9,6 +12,7 @@
 </head>
 <body>
 
+    <!--using the impress class for creating slides-->
     <div id="impress">
         <!--The introduction to the game.-->
         <div id="intro" class="step slide">
@@ -53,7 +57,7 @@
             </div>
         </div>
 
-        <!--Generic return to the start-->
+        <!--Generic return to the start. Called when they die, or choose to go back-->
         <div id="beach" class="step slide" data-x="3500">
             <div class="slide-text">
                 <p>
@@ -113,7 +117,6 @@
             <div class="slide-text">
                 <p> You decide the ocean looks too inviting to pass up. You wade into the warm water, and sit down, letting the waves crash on your face. It feels great. You notice however, the water around you...looks red. The blood from your head is washing off into the water. At that moment, you see the fin coming toward you, your blood is bringing in a shark! You scramble to shore just in time. </p>
                 <br />
-                <p></p>
                 <p><a href="#shark">Give up, and feed the shark. </a></p>
                 <p><a href="#beach">Turn around and go back.</a></p>
             </div>
@@ -126,26 +129,13 @@
                 <p> Again, you hear the deep, low growl. "It's just the wind..." You keep telling yourself over and over again..."It's just the wind..." But part of you knows, it isn't.</p>
                 <p> Suddenly, your hand looses the wall, the finds it again. You realize there is a turn here to the right.</p>
                 <br />
-                <p></p>
-                <p><a href="#cave2"></a>Keep pushing forward.</p>
-                <p><a href="#cave3"></a>Turn right.</p>
+                <p><a href="#cave2">Keep pushing forward. </a></p>
+                <p><a href="#cave3">Turn right.</a></p>
                 <p><a href="#beach">Turn around and go back.</a></p>
             </div>
         </div>
 
-        <!--Go into the cave-->
-        <div id="cave" class="step slide" data-x="9500">
-            <div class="slide-text">
-                <p> You put your hand to the wall, it is so cold you pause a moment to enjoy it. Then, screwing up your courage, you take for first steps into the inky black. The cave is beyond dark. But it is cool and refreshing, it invigorates you. You keep one hand on the wall, and the other ahead of you as you move through the cave.</p>
-                <p> Again, you hear the deep, low growl. "It's just the wind..." You keep telling yourself over and over again..."It's just the wind..." But part of you knows, it isn't.</p>
-                <br />
-           
-                <p><a href="#cave2"></a>Keep pushing forward.</p>
-                <p><a href="#beach">Turn around and go back.</a></p>
-            </div>
-        </div>
-
-        <!--Go into the cave-->
+        <!--Continue through the cave-->
         <div id="cave2" class="step slide" data-x="10500">
             <div class="slide-text">
                 <p> As you continue down the cave, ahead you see light in the distance. You keep moving toward it, with new hope that you may actually escape this place. The light grows brighter, and brighter until you jump out of the cave and are blinded by the light. As your eyes adjust, you see the best thing you have ever seen ahead. A boat, anchored just off shore. You scream to them, and they look back, confused.</p>
@@ -155,7 +145,7 @@
             </div>
         </div>
 
-        <!--Death Section-->
+        <!--Death Section (Where all paths end in death)-->
 
         <!--Death Option Dehydration-->
         <div id="furtherBeach" class="step slide" data-x="-3500">
